@@ -51,12 +51,18 @@
             .btn {
                 background-color: #0B3C5D !important;
             }
+            .container{
+            width: 50%;
+            }
 
             footer {
+                position: relative;
                 background-color: #1D2731;
                 padding: 20px 30px;
                 text-align: center !important;
                 color: #ffffff;
+                bottom: 0;
+                left: 0;
             }
 
             li {
@@ -80,4 +86,11 @@
             
             p {
                 text-align: center;
+            }
+            #footer {
+		        position: absolute;
+		        bottom: 0;
+		        width: 100%;
+		        height: 10%;
+		        left: 0;
             }
